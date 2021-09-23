@@ -2,7 +2,6 @@
 //  ContentView.swift
 //  CryptoPrices
 //
-//  Created by Halil Kaya on 18.09.2021.
 //
 
 import SwiftUI
@@ -29,7 +28,7 @@ struct MainView: View {
                 }
             }.navigationTitle("Crypto Prices")
         }.onAppear {
-            cryptoListViewModel.downloadCryptos(url: URL(string: "https://api.nomics.com/v1/prices?key=c91dd10d9bdf56f33a168bde4bde112b05a9008e")!)
+            cryptoListViewModel.downloadCryptos(url: URL(string: "https://api.nomics.com/v1/prices?key=KEY İS HERE")!)
         }
     }
 }
